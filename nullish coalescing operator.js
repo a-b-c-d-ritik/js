@@ -1,0 +1,11 @@
+let x;
+x=10??26
+x=null??34
+x=34??null
+x=undefined??53
+x=null??undefined
+x=null??undefined??25
+
+
+
+console.log(x);
