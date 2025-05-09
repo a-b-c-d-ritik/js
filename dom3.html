@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom3 create element</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const div=document.createElement('div')
+    console.log(div)
+    console.log(div.className="main")
+    console.log(Math.round(div.id=Math.random()*100+1))
+    
+    div.setAttribute("title","hekko nakamoto")
+    console.log(div)
+    div.style.backgroundColor="red"
+    //how to attach
+    div.innerText="hello new"
+
+    const adder=document.createTextNode("hey boi")
+    div.appendChild(adder);
+
+    console.log(div);
+
+    document.body.appendChild(div);
+
+</script>
+</html>
